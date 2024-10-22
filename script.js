@@ -25,7 +25,7 @@ function addTaskToDiv(e) {
     const TaskMessage = document.querySelector(".p-js");
     if (TaskMessage) {
       TaskMessage.remove();
-    }
+    }g
 
     const taskItem = document.createElement("div");
     taskItem.style.width = "100%";
