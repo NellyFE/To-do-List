@@ -1,4 +1,4 @@
-const addTask = document.querySelector("#taskbutton");
+const addTask = document.querySelector ("#taskbutton");
 const taskInput = document.getElementById("inputlist");
 const Addbtn = document.getElementById("add");
 const taskForm = document.getElementById("taskform");
@@ -25,7 +25,7 @@ function addTaskToDiv(e) {
     const TaskMessage = document.querySelector(".p-js");
     if (TaskMessage) {
       TaskMessage.remove();
-    }g
+    }
 
     const taskItem = document.createElement("div");
     taskItem.style.width = "100%";
@@ -35,6 +35,10 @@ function addTaskToDiv(e) {
     taskContainer.appendChild(taskItem);
 
     taskInput.value = "";
+
+    taskInput.style.display = "none";   
+    Addbtn.style.display = "none";
+    taskForm.style.display = "none"
 
     taskItem.querySelector(".delete-btn").addEventListener("click", () => {
       taskItem.remove();
