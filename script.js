@@ -76,7 +76,7 @@ function addTaskToDiv(e) {
     taskContainer.appendChild(taskItem);
 
     const checkBox = taskItem.querySelector("#checkbox");
-    const TaskText = taskItem.querySelector(".~check-text");
+    const TaskText = taskItem.querySelector(".check-text");
 
     function check(e) {
       console.log(e);
