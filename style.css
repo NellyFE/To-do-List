@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -19,7 +19,6 @@ main {
   flex-direction: column;
   width: 50%;
   align-items: center;
-
 }
 
 .firstblock {
@@ -86,21 +85,29 @@ button {
 
 .delete-btn {
   background-color: white;
+  margin-top: 0px;
+}
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#checkbox {
+  display: inline;
+  margin-right: 10px;
 }
 
-
+span {
+  align-items: center;
+  align-content: center;
+}
 
 @media (max-width: 900px) {
+  #taskbutton {
+    width: 50%;
+  }
 
-#taskbutton{
-  width: 50%;
- 
-}
-
-#add{
-  padding: 10px 20px;
-}
-
-
-
+  #add {
+    padding: 10px 20px;
+  }
 }
