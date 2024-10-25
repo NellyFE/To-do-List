@@ -1,44 +1,3 @@
-// const addTask = document.getElementById("taskbutton");
-// const taskInput = document.getElementById("inputlist");
-// const Addbtn = document.getElementById("add");
-// const taskForm = document.getElementById("taskform");
-// const taskContainer = document.getElementById("input-div");
-
-// const placeHolder = "<p class='p-js'> You have no availabe to do";
-
-// taskContainer.innerHTML = placeHolder;
-
-// function addinput() {
-//   taskInput.style.display = "block";
-//   taskForm.style.display = "block";
-//   Addbtn.style.display = "block";
-// }
-
-// addTask.addEventListener("click", addinput);
-
-// function addTaskToDiv(e) {
-//   e.preventDefault();
-
-//   const task = taskInput.value.trim();
-
-//   if (task !== " ") {
-//     const TaskMessage = document.querySelector("p-js");
-//     if (TaskMessage) {
-//       TaskMessage.remove();
-//     }
-//   }
-
-//    const taskItem = document.createElement("div");
-//        taskItem.style.width = "100%";
-//     taskItem.style.padding = "10px";
-//     taskItem.innerHTML = `<span style="display: flex; justify-content: space-between; align-items: center; width: "100%";"><p>${task}</p> <button class='delete-btn'>❌</button></span>`;
-
-// taskContainer.appendChild(taskItem);
-
-// } !== not equal to / === equal to
-
-// Addbtn.addEventListener('click' , addTaskToDiv);
-
 const addTask = document.querySelector("#taskbutton");
 const taskInput = document.getElementById("inputlist");
 const Addbtn = document.getElementById("add");
@@ -111,4 +70,4 @@ function removEInput(e) {
 addTask.addEventListener("click", addinput);
 Addbtn.addEventListener("click", addTaskToDiv);
 
-taskInput.addEventListener("submit", console.log("ff"));
+// taskInput.addEventListener("submit", console.log("ff"));

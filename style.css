@@ -87,19 +87,10 @@ button {
   background-color: white;
   margin-top: 0px;
 }
-.check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 #checkbox {
   display: inline;
   margin-right: 10px;
-}
-
-span {
-  align-items: center;
-  align-content: center;
 }
 
 @media (max-width: 900px) {
